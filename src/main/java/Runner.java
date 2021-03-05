@@ -28,7 +28,7 @@ public class Runner {
         return sc.nextInt() == 0;
     }
 
-    private static Shape initShapeParameters(Shape shape, Scanner sc) {
+    public static Shape initShapeParameters(Shape shape, Scanner sc) {
         if (shape instanceof Circle) {
             System.out.println("""
                     Input radius Circle:
@@ -48,7 +48,7 @@ public class Runner {
         }
     }
 
-    private static Shape inputShapeType(Scanner sc) {
+    public static Shape inputShapeType(Scanner sc) {
         System.out.println("""
                 Choose Shape type:
                 for creation Circle press 1
